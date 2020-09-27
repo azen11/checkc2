@@ -24,13 +24,6 @@ br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/36.2.2254/119.132; U; id) Presto/2.12.423 Version/12.16')]
 
 #-exit-#
-def exit():
-	os.system('clear')
-	print "\033[1;91m[!] Closing the tool..."
-	os.system('sleep 3 && clear')
-	os.system('xdg-open https://web.facebook.com/mkdirlove.git')
-	os.sys.exit()
-        tool_main_function()
 
 #-Animation-#
 def mkdir(z):
